@@ -32,17 +32,6 @@
                         "link": "/nexus/"
                     },
                     {
-                        "id": "selenium",
-                        "title": "selenium",
-                        "img": "img/selenium.png",
-                        "description": "Selenium Grid for Automated Testing",
-                        "link": "",
-                        "linkCreate": {
-                            "host": "selenium",
-                            "endPath": "//grid/console"
-                        }
-                    },
-                    {
                         "id": "ldap-ltb",
                         "title": "ltb",
                         "img": "img/ltb.png",

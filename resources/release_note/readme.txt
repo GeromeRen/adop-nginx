@@ -40,17 +40,6 @@ main folder
                     "img": "img/jenkins.png",            ## this is the relative (or absolute) path to the logo image
                     "description": "jenkins main dashboard",  ## this is a few words description that will go under the title/logo
                     "link": "/jenkins"                    ## this is the link (relative of absolute path) to the service         
-                }, 
-                {
-                    "id": "ldap-gerrit-shipyard-selenium",
-                    "title": "selenium",
-                    "img": "img/selenium.png",
-                    "description": "web application automated tester",
-                    "link": "",
-                    "linkCreate": {                   ##  if this object is present, then the link is created dynamically
-                        "host": "selenium",             ## this is what is used as host parameter in createUrl
-                        "endPath": "//grid/console"     ## this is the final part of the path that some services have
-                    }
                 }
             ]
         }
